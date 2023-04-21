@@ -8,7 +8,7 @@ package com.app.Ejercicio1Servlets;
 	import javax.servlet.http.HttpServletResponse;
 	import javax.servlet.annotation.WebServlet;
 
-	@WebServlet("/Ejercicio/ServletJulian")
+	@WebServlet("/Ejercicio1/ServletJulian")
 	public class ServletJulian extends HttpServlet {
 
 	    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
